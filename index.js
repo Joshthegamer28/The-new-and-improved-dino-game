@@ -98,8 +98,7 @@
     /** @const */
     var IS_TOUCH_ENABLED = 'ontouchstart' in window;
     
-    var original = Runner.prototype.gameOver
-    Runner.prototype.gameOver = function(){}
+   
 
     /**
      * Default game configuration.
